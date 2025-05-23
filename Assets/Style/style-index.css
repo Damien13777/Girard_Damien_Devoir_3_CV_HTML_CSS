@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+/*police "Lato" toute taille et italique ci dessus pour les titres
+et ci dessous Raleway pour les contenus*/
+@font-face {
+  font-family: Raleway;
+  font-style: normal;
+  src: url(../Fonts/Raleway-Regular.woff) format("woff");
+  src: url(../Fonts/Raleway-Regular.ttf) format("truetype");
+  src: url(../Fonts/Raleway-Regular.otf) format("opentype");
+}
+@font-face {
+  font-family: Raleway;
+  font-style: italic;
+  src: url(../Fonts/Raleway-Italic.woff) format("woff");
+  src: url(../Fonts/Raleway-Italic.ttf) format("truetype");
+  src: url(../Fonts/Raleway-Italic.otf) format("opentype");
+}
+@font-face {
+  font-family: Raleway;
+  font-style: bold;
+  src: url(../Fonts/Raleway-Bold.woff) format("woff");
+  src: url(../Fonts/Raleway-Bold.ttf) format("truetype");
+  src: url(../Fonts/Raleway-Bold.otf) format("opentype");
+}
+@font-face {
+  font-family: Raleway;
+  font-style: bold italic;
+  src: url(../Fonts/Raleway-BoldItalic.woff) format("woff");
+  src: url(../Fonts/Raleway-BoldItalic.ttf) format("truetype");
+  src: url(../Fonts/Raleway-BoldItalic.otf) format("opentype");
+}

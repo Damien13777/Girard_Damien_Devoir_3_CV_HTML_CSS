@@ -19,23 +19,25 @@
                 <h1 class="h1-header">Damien Girard</h1>
                 <h2 class="h2-header">Développeur Web et Web Mobile</h2>
             </div>
-            <div id="contact">
-                <img src="./Assets/Image/icone-email.png" alt="Un incone pour l'email"> <a
-                    href="mailto:dgirard137@gmail.com">
-                    dgirard137@gmail.com</a>
-                <img src="./Assets/Image/icone-maison.png" alt="Un icone pour l'adresse"> <a
-                    href="https://www.google.fr/maps/place/Apple+Park/@37.3351542,-122.0185209,3627m/data=!3m1!1e3!4m6!3m5!1s0x808fb596e9e188fd:0x3b0d8391510688f0!8m2!3d37.3346438!4d-122.008972!16s%2Fg%2F11bzx2n6td?hl=fr&entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D">1
-                    Quelque part 17400 ST Jean d'Angely</a>
-                <img src="./Assets/Image/icone-voiture.png" alt="Un icone pour le permis de conduire">
-                <p>Permis B et A</p>
-                <img src="./Assets/Image/silhouette-de-poignee-de-telephone.png" alt="Un icone pour le téléphone"> <a
-                    href="tel:0606060606">06.06.06.06.06</a>
-            </div>
             <picture>
                 <a href="./Assets/Image/photo-pour-cv-jpeg.jpeg" target="_blank">
                     <!-- Lien vers un nouvel onglet avec la photo en grand format en qualité superieure -->
-                    <img src="./Assets/Image/photo-pour-cv-webp.webp" alt="Une photo de Damien pour son CV"></a>
+                    <img id="photo-de-profil" src="./Assets/Image/photo-pour-cv-webp.webp" alt="Une photo de Damien pour son CV" ></a>
             </picture>
+            <div id="contact">
+                <!-- Création d'items pour le container flex sous l'id contact pour pouvoir les placer plus facilement -->
+                <div class="contact-item"><img class="Logo" src="./Assets/Image/icone-email.png" alt="Un incone pour l'email"> <a
+                        href="mailto:dgirard137@gmail.com">
+                        dgirard137@gmail.com</a></div>
+                <div class="contact-item"><img class="Logo" src="./Assets/Image/icone-maison.png" alt="Un icone pour l'adresse"> <a
+                        href="https://www.google.fr/maps/place/Apple+Park/@37.3351542,-122.0185209,3627m/data=!3m1!1e3!4m6!3m5!1s0x808fb596e9e188fd:0x3b0d8391510688f0!8m2!3d37.3346438!4d-122.008972!16s%2Fg%2F11bzx2n6td?hl=fr&entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D">1
+                        Quelque part 17400 ST Jean d'Angely</a></div>
+                <div class="contact-item"><img class="Logo" src="./Assets/Image/icone-voiture.png" alt="Un icone pour le permis de conduire">
+                    <p>Permis B et A</p>
+                </div>
+                <div class="contact-item"><img class="Logo" src="./Assets/Image/silhouette-de-poignee-de-telephone.png" alt="Un icone pour le téléphone">
+                    <a href="tel:0606060606">06.06.06.06.06</a></div>
+            </div>
         </header>
 
         <main>
@@ -44,17 +46,14 @@
                     <h2 class="font-lato">Profil</h2>
                     <hr>
                     <p id="profil">Actuellement en formation de BTS Développeur Web, je me distingue par un parcours
-                        riche et
-                        polyvalent, mêlant technicité, rigueur et passion.
+                        riche et polyvalent, mêlant technicité, rigueur et passion.
                         Fort d’une expérience de plus de dix ans dans le secteur moto, notamment au sein de compétitions
                         internationales comme le championnat du monde de motocross,
                         j’ai acquis un sens aiguisé de la performance, de la précision et de la gestion de projet.
                         Aujourd’hui, animé par la même soif d’excellence et tourné vers l’avenir, je mets cette exigence
-                        au
-                        service du développement web.
+                        au service du développement web.
                         Curieux, autonome et passionné par les nouvelles technologies, je suis prêt à relever de
-                        nouveaux
-                        défis en tant que développeur web et mobile.</p>
+                        nouveaux défis en tant que développeur web et mobile.</p>
                 </section>
 
                 <section id="formation">
@@ -183,15 +182,15 @@
         <footer>
             <picture>
                 <a href="https://www.linkedin.com/in/damien-girard-07957525a" target="_blank">
-                    <img src="./Assets/Image/linkedin.png" alt="Logo du réseau social LinkedIn"></a>
+                    <img class="Logo" src="./Assets/Image/linkedin.png" alt="Logo du réseau social LinkedIn"></a>
             </picture>
             <picture>
                 <a href="https://github.com/Damien13777" target="_blank">
-                    <img src="./Assets/Image/github.png" alt="Logo du réseau social GitHub"></a>
+                    <img class="Logo" src="./Assets/Image/github.png" alt="Logo du réseau social GitHub"></a>
             </picture>
             <picture>
                 <a href="https://www.instagram.com/dammx100/?hl=fr" target="_blank">
-                    <img src="./Assets/Image/instagram.png" alt="Logo du réseau social Instagram"></a>
+                    <img class="Logo" src="./Assets/Image/instagram.png" alt="Logo du réseau social Instagram"></a>
             </picture>
             <p>Mis à jour le: <time datetime="2025-05-24">25/05/2025</time></p>
         </footer>

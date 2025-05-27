@@ -40,6 +40,10 @@ et ci dessous Raleway pour les contenus*/
 .font-lato {
   font-family: "Lato", sans-serif;
   font-size: 1.2rem;
+  border-bottom: 1px solid;
+  border-color: #e3e3e3;
+  padding-bottom: 10px;
+  color: #17abb3;
 }
 
 
@@ -74,7 +78,7 @@ header {
   border: 4px solid #ffffff;
   border-radius: 50%;
   order: 1;
-  margin-left: 100px;
+  margin-left: 120px;
 }
 /* step 2 mise en forme du texte du header avec le container header title et de ses items*/
 #header-title {
@@ -113,4 +117,55 @@ a {
 }
 .Logo {
   width: 15px;
+}
+#container-2 {
+  display: flex;
+  flex-direction: row;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 773px;
+  padding: 40px;
+  order: 2;
+  background-color: #ffffff;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 40px;
+  width: 386px;
+  order: 1;
+  background-color: rgba(227, 227, 227, 40%);
+}
+#profil {
+  text-align: justify;
+  text-indent: 1rem;
+}
+.bold {
+  font-weight: bolder;
+}
+.description {
+  font-size: smaller;
+  font-weight: lighter;
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.right-blue {
+  color: #17abb3;
+}
+.double-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1px;
+}
+.bold-aside {
+  text-align: left;
+}
+.five-stars {
+  text-align: right;
 }

@@ -178,13 +178,14 @@ aside {
   flex-direction: row;
   align-items: baseline;
   justify-content: end;
-  gap: 3px;
-  width: 150px;
+  margin: 0;
+  gap: 6px;
   color: #17abb3;
 }
 .bold-aside {
   font-weight: 500;
-  width: 150px;
+  width: 180px;
+  margin: 0;
 }
 .filled-stars {
   font-size: 1.3rem;
@@ -197,6 +198,10 @@ aside {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  row-gap: 7px;
+}
+.langage-content {
+  margin: 0;
 }
 .list {
   list-style-type: square;

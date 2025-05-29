@@ -3,28 +3,24 @@
 et ci dessous Raleway pour les contenus*/
 @font-face {
   font-family: Raleway;
-  font-style: normal;
   src: url(../Fonts/Raleway-Regular.woff) format("woff");
   src: url(../Fonts/Raleway-Regular.ttf) format("truetype");
   src: url(../Fonts/Raleway-Regular.otf) format("opentype");
 }
 @font-face {
   font-family: Raleway;
-  font-style: italic;
   src: url(../Fonts/Raleway-Italic.woff) format("woff");
   src: url(../Fonts/Raleway-Italic.ttf) format("truetype");
   src: url(../Fonts/Raleway-Italic.otf) format("opentype");
 }
 @font-face {
   font-family: Raleway;
-  font-style: bold;
   src: url(../Fonts/Raleway-Bold.woff) format("woff");
   src: url(../Fonts/Raleway-Bold.ttf) format("truetype");
   src: url(../Fonts/Raleway-Bold.otf) format("opentype");
 }
 @font-face {
   font-family: Raleway;
-  font-style: bold italic;
   src: url(../Fonts/Raleway-BoldItalic.woff) format("woff");
   src: url(../Fonts/Raleway-BoldItalic.ttf) format("truetype");
   src: url(../Fonts/Raleway-BoldItalic.otf) format("opentype");
@@ -170,6 +166,13 @@ aside {
   text-indent: 1rem;
 }
 
+.double-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1px;
+} /* double line me permet d'avoir mon texte bold a gauche et mon texte right blue à droite grace à space between */
+
 .bold {
   font-weight: 500;
 }
@@ -185,13 +188,6 @@ aside {
 .right-blue {
   color: #17abb3;
 }
-
-.double-line {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 1px;
-} /* double line me permet d'avoir mon texte bold a gauche et mon texte right blue à droite grace à space between */
 
 .inline {
   display: flex;

@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </div>
-            <picture>
+            <picture id="profil-picture">
                 <a href="./Assets/Image/photo-pour-cv-jpeg.jpeg" target="_blank">
                     <!-- Lien vers un nouvel onglet avec la photo en grand format en qualité superieure -->
                     <img id="photo-de-profil" src="./Assets/Image/photo-pour-cv-webp.webp"
@@ -72,12 +72,13 @@
 
                 <section id="formation">
                     <h2 class="font-lato">Formations</h2>
-                    <p class="double-line">
-                        <span class="bold">BTS - Developpeur Web</span>
-                        <span class="right-blue">Avril 2025</span>
-                    </p>
-                    <p class="description">Centre Européen de Formation</p>
-
+                    <div class="hover-1">
+                        <p class="double-line">
+                            <span class="bold">BTS - Developpeur Web</span>
+                            <span class="right-blue">Avril 2025</span>
+                        </p>
+                        <p class="description">Centre Européen de Formation</p>
+                    </div>
                     <p class="double-line">
                         <span class="bold">Formation Google carrer essentials</span>
                         <span class="right-blue">Mars 2025</span>
@@ -220,19 +221,23 @@
             </aside>
         </div>
         <footer>
-            <picture>
-                <a href="https://www.linkedin.com/in/damien-girard-07957525a" target="_blank">
-                    <img class="Logo" src="./Assets/Image/linkedin.png" alt="Logo du réseau social LinkedIn"></a>
-            </picture>
-            <picture>
-                <a href="https://github.com/Damien13777" target="_blank">
-                    <img class="Logo" src="./Assets/Image/github.png" alt="Logo du réseau social GitHub"></a>
-            </picture>
-            <picture>
-                <a href="https://www.instagram.com/dammx100/?hl=fr" target="_blank">
-                    <img class="Logo" src="./Assets/Image/instagram.png" alt="Logo du réseau social Instagram"></a>
-            </picture>
-            <p>Mis à jour le: <time datetime="2025-05-24">25/05/2025</time></p>
+            <div id="container-3">
+                <picture>
+                    <a href="https://www.linkedin.com/in/damien-girard-07957525a" target="_blank">
+                        <img class="Logo-footer" src="./Assets/Image/linkedin.png"
+                            alt="Logo du réseau social LinkedIn"></a>
+                </picture>
+                <picture>
+                    <a href="https://github.com/Damien13777" target="_blank">
+                        <img class="Logo-footer" src="./Assets/Image/github.png" alt="Logo du réseau social GitHub"></a>
+                </picture>
+                <picture>
+                    <a href="https://www.instagram.com/dammx100/?hl=fr" target="_blank">
+                        <img class="Logo-footer" src="./Assets/Image/instagram.png"
+                            alt="Logo du réseau social Instagram"></a>
+                </picture>
+            </div>
+            <p id="date">Mis à jour le: <time datetime="2025-05-24">25/05/2025</time></p>
         </footer>
     </div>
 </body>

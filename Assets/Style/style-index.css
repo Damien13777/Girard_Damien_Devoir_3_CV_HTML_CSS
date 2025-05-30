@@ -2,29 +2,30 @@
 /*police "Lato" toute taille et italique ci dessus pour les titres
 et ci dessous Raleway pour les contenus*/
 @font-face {
-  font-family: Raleway;
+  font-family: Raleway-regular;
+  font-weight: normal;
+  font-style: normal;
   src: url(../Fonts/Raleway-Regular.woff) format("woff");
   src: url(../Fonts/Raleway-Regular.ttf) format("truetype");
   src: url(../Fonts/Raleway-Regular.otf) format("opentype");
 }
 @font-face {
-  font-family: Raleway;
+  font-family: Raleway-italic;
+  font-weight: normal;
+  font-style: italic;
   src: url(../Fonts/Raleway-Italic.woff) format("woff");
   src: url(../Fonts/Raleway-Italic.ttf) format("truetype");
   src: url(../Fonts/Raleway-Italic.otf) format("opentype");
 }
 @font-face {
-  font-family: Raleway;
+  font-family: Raleway-bold;
+  font-weight: bold;
+  font-style: normal;
   src: url(../Fonts/Raleway-Bold.woff) format("woff");
   src: url(../Fonts/Raleway-Bold.ttf) format("truetype");
   src: url(../Fonts/Raleway-Bold.otf) format("opentype");
 }
-@font-face {
-  font-family: Raleway;
-  src: url(../Fonts/Raleway-BoldItalic.woff) format("woff");
-  src: url(../Fonts/Raleway-BoldItalic.ttf) format("truetype");
-  src: url(../Fonts/Raleway-BoldItalic.otf) format("opentype");
-}
+
 .h1-header {
   font-family: "Lato", sans-serif;
   font-size: 2.5rem;
@@ -51,7 +52,7 @@ et ci dessous Raleway pour les contenus*/
 body {
   display: flex;
   justify-content: center;
-  font-family: raleway-regular, sans-serif;
+  font-family: "raleway-regular", sans-serif;
   font-weight: 300;
   font-size: 0.8rem;
   background-color: #f5f5f5;
@@ -174,7 +175,7 @@ aside {
 } /* double line me permet d'avoir mon texte bold a gauche et mon texte right blue à droite grace à space between */
 
 .bold {
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .description {
@@ -209,7 +210,7 @@ stars et leurs taille est uniformisée dans filled stars et empty stars */
 }
 
 .bold-aside {
-  font-weight: 500;
+  font-weight: bold;
   width: 180px;
   margin: 0;
 }

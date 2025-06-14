@@ -16,8 +16,8 @@
     <div id="main-container">
         <header>
             <div id="header-title">
-                <h1 class="h1-header">Damien Girard</h1>
-                <h2 class="h2-header">Développeur Web et Web Mobile</h2>
+                <span class="name-header">Damien Girard</span>
+                <h1 class="h1-header">Développeur Web et Web Mobile</h1>
                 <div id="contact">
                     <!-- Création d'items pour le container flex sous l'id contact pour pouvoir les placer plus facilement -->
                     <div class="contact-item"><img class="Logo" src="./Assets/Image/icone-email.png"
@@ -41,18 +41,18 @@
                     </div>
                 </div>
             </div>
-            <div id="profil-picture">
+            <figure id="profil-picture">
                 <a href="./Assets/Image/photo-pour-cv-jpeg.jpeg" target="_blank">
                     <!-- Lien vers un nouvel onglet avec la photo en grand format en qualité superieure -->
                     <img id="photo-de-profil" src="./Assets/Image/photo-pour-cv-webp.webp"
                         alt="Une photo de Damien pour son CV"></a>
-            </div>
+            </figure>
         </header>
 
-        <div id="container-2">
-            <main>
+        <main id="container-2">
+            <div id="right-content">
                 <section id="presentation">
-                    <h3 class="font-lato">Profil</h3>
+                    <h2 class="font-lato">Profil</h2>
                     <p class="profil">
                         Actuellement en formation de BTS Développeur Web, je me distingue par un parcours
                         riche et polyvalent, mêlant technicité, rigueur et passion.
@@ -71,174 +71,219 @@
                 </section>
 
                 <section id="formation"> <!--chaque section est nomée avec un id pour se reperer plus facilement-->
-                    <h3 class="font-lato">Formations</h3>
+                    <h2 class="font-lato">Formations</h2>
 
                     <div class="hover-1">
-                        <p class="double-line">
+                        <div class="text-left">
                             <span class="bold">BTS - Developpeur Web</span>
+                            <span class="description">Centre Européen de Formation</span>
+                        </div>
+                        <div class="date">
                             <span><time class="right-blue" datetime="2025-04">Avril 2025</time></time></span>
-                        </p>
-                        <p class="description">Centre Européen de Formation</p>
+                        </div>
                     </div>
 
                     <div class="hover-1">
-                        <p class="double-line">
+                        <div class="text-left">
                             <span class="bold">Formation Google carrer essentials</span>
+                            <span class="description">Intelligence artificielle</span>
+                        </div>
+                        <div class="date">
                             <span><time class="right-blue" datetime="2025-03">Mars 2025</time></time></span>
-                        </p>
-                        <p class="description">Intelligence artificielle</p>
+                        </div>
                     </div>
 
                     <div class="hover-1">
-                        <p class="double-line">
+                        <div class="text-left">
                             <span class="bold">Formation Traderchange</span>
+                            <span class="description">Trading speculatif sur le forex avec Philippe Lhermie</span>
+                        </div>
+                        <div class="date">
                             <span><time class="right-blue" datetime="2023-09">Séptembre 2023 -</time>
                                 <time class="right-blue" datetime="2024-08">Aout 2024</time></span>
-                        </p>
-                        <p class="description">Trading speculatif sur le forex avec Philippe Lhermie</p>
+                        </div>
                     </div>
 
                     <div class="hover-1">
-                        <p class="double-line">
+                        <div class="text-left">
                             <span class="bold">CAP et BAC PRO Mécanicien moto</span>
+                            <span class="description">Lycée J.A Grégoire mention "Bien"</span>
+                        </div>
+                        <div class="date">
                             <span><time class="right-blue" datetime="2009">2009 -</time>
                                 <time class="right-blue" datetime="2012">2012</time></span>
-                        </p>
-                        <p class="description">Lycée J.A Grégoire mention "Bien"</p>
+                        </div>
                     </div>
 
                 </section>
 
                 <section id="stages">
-                    <h3 class="font-lato">Stages</h3>
+                    <h2 class="font-lato">Stages</h2>
 
                     <div class="hover-1">
-                        <p class="double-line">
+                        <div class="text-left">
                             <span class="bold">Mécanicien moto, 6 periodes d'un mois</span>
+                            <span class="description">Le top Kawasaki et RS performance, Saintes, 17</span>
+                        </div>
+                        <div class="date">
                             <span><time class="right-blue" datetime="2009">2009 -</time>
                                 <time class="right-blue" datetime="2012">2012</time></span>
-                        </p>
-                        <p class="description">Le top Kawasaki et RS performance, Saintes, 17</p>
+                        </div>
                     </div>
 
                 </section>
 
                 <section id="experience">
-                    <h3 class="font-lato">Expérience professionnelle</h3>
+                    <h2 class="font-lato">Expérience professionnelle</h2>
 
                     <div class="hover-1">
-                        <p class="double-line">
+                        <div class="text-left">
                             <span class="bold">Mécanicien moto</span>
+                            <span class="description">City Bike, Royan - concesionnaire Kawasaki</span>
+                        </div>
+                        <div class="date">
                             <span><time class="right-blue" datetime="2013-02">Février 2013 -</time>
                                 <time class="right-blue" datetime="2015-10">Octobre 2015</time></span>
-                        </p>
-                        <p class="description">City Bike, Royan - concesionnaire Kawasaki</p>
+                        </div>
                     </div>
 
                     <div class="hover-1">
-                        <p class="double-line">
+                        <div class="text-left">
                             <span class="bold">Mécanicien moto</span>
+                            <span class="description">Diabolic moto, Parthenay - concessionaire Husqvarna/Suzuki</span>
+                        </div>
+                        <div class="date">
                             <span><time class="right-blue" datetime="2016-04">Avril 2016 -</time>
                                 <time class="right-blue" datetime="2018-12">Décembre 2018</time></span>
-                        </p>
-                        <p class="description">Diabolic moto, Parthenay - concessionaire Husqvarna/Suzuki</p>
+                        </div>
                     </div>
 
                     <div class="hover-1">
-                        <p class="double-line">
+                        <div class="text-left">
                             <span class="bold">Mécanicien compétition</span>
+                            <span class="description">Championnat d'Europe de motocross, pilote Xavier Cazal 4eme
+                                place</span>
+                        </div>
+                        <div class="date">
                             <span><time class="right-blue" datetime="2018-01">Janvier 2018 -</time>
                                 <time class="right-blue" datetime="2018-12">Décembre 2018</time></span>
-                        </p>
-                        <p class="description">Championnat d'Europe de motocross, pilote Xavier Cazal 4eme place</p>
+                        </div>
                     </div>
 
                     <div class="hover-1">
-                        <p class="double-line">
+                        <div class="text-left">
                             <span class="bold">Mécanicien compétition</span>
+                            <span class="description">Championnat du monde de motocross, pilote Jordi Tixier 16eme
+                                place</span>
+                        </div>
+                        <div class="date">
                             <span><time class="right-blue" datetime="2019-01">Janvier 2019 -</time>
                                 <time class="right-blue" datetime="2020-01">Janvier 2020</time></span>
-                        </p>
-                        <p class="description">Championnat du monde de motocross, pilote Jordi Tixier 16eme place
-                        </p>
+                        </div>
                     </div>
 
                     <div class="hover-1">
-                        <p class="double-line">
+                        <div class="text-left">
                             <span class="bold">Magasinier / chef d'atelier</span>
+                            <span class="description">Diabolic moto, Parthenay</span>
+                        </div>
+                        <div class="date">
                             <span><time class="right-blue" datetime="2020-02">Fevrier 2020 -</time>
                                 <time class="right-blue" datetime="2023-03">Mars 2023</time></span>
-                        </p>
-                        <p class="description">Diabolic moto, Parthenay</p>
+                        </div>
                     </div>
 
                     <div class="hover-1">
-                        <p class="double-line">
+                        <div class="text-left">
                             <span class="bold">Technicien de maintenance</span>
+                            <span class="description">BTS Industrie, Parthenay</span>
+                        </div>
+                        <div class="date">
                             <span><time class="right-blue" datetime="2023-04">Janvier 2024 -</time>
                                 <time class="right-blue" datetime="2023-09">Septembre 2023</time></span>
-                        </p>
-                        <p class="description">BTS Industrie, Parthenay</p>
+                        </div>
                     </div>
 
                     <div class="hover-1">
-                        <p class="double-line">
+                        <div class="text-left">
                             <span class="bold">Résponsable achats pièces détachées</span>
+                            <span class="description">OXMOTO, La Roche sur Yon</span>
+                        </div>
+                        <div class="date">
+                            <span class="bold"></span>
                             <time class="right-blue" datetime="2024-01">Janvier 2024</time>
-                        </p>
-                        <p class="description">OXMOTO, La Roche sur Yon </p>
+                        </div>
                     </div>
-
                 </section>
-            </main>
+            </div>
 
-            <aside> <!-- Utilisation de Aside pour les informations plus breves qui seront placées sur le côté -->
+            <div id="left-content">
+                <!-- Utilisation de Aside pour les informations plus breves qui seront placées sur le côté -->
                 <section>
-                    <h3 class="font-lato">Compétences</h3>
+                    <h2 class="font-lato">Compétences</h2>
 
-                    <div class="inline">
-                        <!-- la class inline me permet de mettre en en ligne mes deux items <p> : bold-aside et stars 
+                    <ul class="list-1">
+                        <li class="inline">
+                            <!-- la class inline me permet de mettre en en ligne mes deux items <p> : bold-aside et stars 
                                             le rendu visuel des etoiles est geré en inserant un span avec la class filled-stars et empty-stars
                                             span a été choisi car il n'est pas un "block" comme div ou <p> et permet de ne pas perturber le rendu-->
-                        <p class="bold-aside">Mécanique moto</p>
-                        <p class="stars"><span class="filled-stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span></p>
+                            <span class="bold-aside">Mécanique moto</span>
+                            <div class="stars"><span class="filled-stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+                            </div>
+                        </li>
 
-                        <p class="bold-aside">Utilisation de logiciel de gestion</p>
-                        <p class="stars"><span class="filled-stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span></p>
+                        <li class="inline">
+                            <span class="bold-aside">Utilisation de logiciel de gestion</span>
+                            <div class="stars"><span class="filled-stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+                            </div>
+                        </li>
 
-                        <p class="bold-aside">Gestion des stocks et achats</p>
-                        <p class="stars"><span class="filled-stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span></p>
+                        <li class="inline">
+                            <span class="bold-aside">Gestion des stocks et achats</span>
+                            <div class="stars"><span class="filled-stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+                            </div>
+                        </li>
 
-                        <p class="bold-aside">Trading forex et strategies</p>
-                        <p class="stars"><span class="filled-stars">&#9733; &#9733; &#9733;</span><span
-                                class="empty-stars">&#9734; &#9734;</span></p>
+                        <li class="inline">
+                            <span class="bold-aside">Trading forex et strategies</span>
+                            <div class="stars"><span class="filled-stars">&#9733; &#9733; &#9733;</span><span
+                                    class="empty-stars">&#9734; &#9734;</span></div>
+                        </li>
 
-                        <p class="bold-aside">HTML</p>
-                        <p class="stars"><span class="filled-stars">&#9733; &#9733; &#9733;</span><span
-                                class="empty-stars">&#9734; &#9734;</span></p>
+                        <li class="inline">
+                            <span class="bold-aside">HTML</span>
+                            <div class="stars"><span class="filled-stars">&#9733; &#9733; &#9733;</span><span
+                                    class="empty-stars">&#9734; &#9734;</span></div>
+                        </li>
 
-                        <p class="bold-aside">CSS</p>
-                        <p class="stars"><span class="filled-stars">&#9733; &#9733; &#9733;</span><span
-                                class="empty-stars">&#9734; &#9734;</span></p>
-                    </div>
+                        <li class="inline">
+                            <span class="bold-aside">CSS</span>
+                            <div class="stars"><span class="filled-stars">&#9733; &#9733; &#9733;</span><span
+                                    class="empty-stars">&#9734; &#9734;</span></div>
+                        </li>
+                    </ul>
 
                 </section>
 
                 <section>
-                    <h3 class="font-lato">Langues</h3>
+                    <h2 class="font-lato">Langues</h2>
 
-                    <div id="Langages">
-                        <p class="bold-aside">Français</p>
-                        <p class="langage-content">Langue maternelle</p>
+                    <ul class="list-1">
+                        <li class="langages">
+                            <div class="bold-aside">Français</div>
+                            <div class="langage-content">Langue maternelle</div>
+                        </li>
 
-                        <p class="bold-aside">Anglais</p>
-                        <p class="langage-content">Niveau B2</p>
-                    </div>
+                        <li class="langages">
+                            <span class="bold-aside">Anglais</span>
+                            <span class="langage-content">Niveau B2</span>
+                        </li>
+                    </ul>
 
                 </section>
 
                 <section>
-                    <h3 class="font-lato">Qualités</h3>
+                    <h2 class="font-lato">Qualités</h2>
 
                     <ul class="list"> <!--ici deux class sont crées : list et list-item, ce qui me permet de gerer
                                         independemment l'aspect des puces et le texte de la liste-->
@@ -250,7 +295,7 @@
                 </section>
 
                 <section id="interets">
-                    <h3 class="font-lato">Centres d'intérêts</h3>
+                    <h2 class="font-lato">Centres d'intérêts</h2>
 
                     <ul class="list">
                         <li><span class="list-item">Voyages</span></li>
@@ -261,8 +306,8 @@
                     </ul>
 
                 </section>
-            </aside>
-        </div>
+            </div>
+        </main>
 
         <footer>
 
